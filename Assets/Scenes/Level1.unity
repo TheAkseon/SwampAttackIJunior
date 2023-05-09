@@ -1212,7 +1212,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &593598422
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1229,7 +1229,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &593598423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1439,9 +1440,9 @@ MonoBehaviour:
   - Template: {fileID: 6442235411976674831, guid: 0222e81132d573c4390d55952b4fc6a6, type: 3}
     Delay: 1
     Count: 5
-  - Template: {fileID: 6442235411976674831, guid: 0222e81132d573c4390d55952b4fc6a6, type: 3}
+  - Template: {fileID: 4870265429974521663, guid: b2de65b781ce9b646ba78fe68f404ac1, type: 3}
     Delay: 0.5
-    Count: 10
+    Count: 5
   _spawnPoint: {fileID: 846675189}
   _player: {fileID: 593598423}
 --- !u!4 &846675189
@@ -5959,6 +5960,7 @@ MonoBehaviour:
   _weapons:
   - {fileID: 7695485486898173355, guid: 26f7eb47b9bd487488c15e608ac33b8c, type: 3}
   - {fileID: 3377903999097313348, guid: e28498ca2568a7944b5213b3c697e309, type: 3}
+  - {fileID: 5381634654543601110, guid: e16356cf86885904ebceaa035d689f20, type: 3}
   _player: {fileID: 593598423}
   _template: {fileID: 787691832993156420, guid: cab6ff71b9ea7d944b1e855357323dd8, type: 3}
   _itemContainer: {fileID: 1138480931}
